@@ -15,7 +15,7 @@ export const Header = styled.h1`
 
 export const Input = styled.input`
   display:block;
-  width:100%;
+  width:-webkit-fill-available;
   margin:1rem 0;
   padding:1rem;
   background-color:rgb(51, 51, 51) !important;
@@ -24,7 +24,7 @@ export const Input = styled.input`
 
 export const Button = styled.button`
   display:block;
-  width:100%;
+  width:-webkit-fill-available;
   margin:2rem 0;
   padding:1rem;
   text-align:center;

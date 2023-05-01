@@ -38,13 +38,13 @@ function Navbar({currentUser, setCurrentUser}) {
 
   return (
     <Container>
-      <div style={{display:'flex',flexDirection:'row'}}>
+      <div style={{display:'flex',flexDirection:'row',marginLeft:'1rem',alignItems:'center'}}>
         <BsCardChecklist size={27} color='white'/> 
-        <Header>Task Management Tool</Header>
+        <Header style={{fontSize:'1.2rem'}}>Task Management Tool</Header>
       </div>
       {/* {currentUser&&<Header style={{color:'white'}}>Hello, {currentUser.displayName}</Header>} */}
-      <Icon>
-        <BiUserCircle size={35} style={{marginLeft:'auto'}}  onClick={()=>setToggleMenu(prev=>!prev)}/>
+      <Icon style={{marginRight:'1rem'}}>
+        <BiUserCircle size={35}  onClick={()=>setToggleMenu(prev=>!prev)}/>
       </Icon>
       {toggleMenu && controls}
     </Container>

@@ -20,6 +20,7 @@ export const Header = styled.h1`
 export const Buttons = styled.button`
   width:60%;
   transition:0.5s ease;
+  text-align:center;
   &:hover {
     background:gray;
   }
@@ -48,6 +49,7 @@ export const Wrapper = styled.div`
 
 export const Icon = styled.div`
   // border:1px solid white;
+  display:flex;
   border-radius:50%;
   padding:0.5rem;
   // margin-left:auto;
